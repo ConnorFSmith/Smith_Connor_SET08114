@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.conno.projectreborn.SwipeScreen">
+
+    <ImageButton
+        android:id="@+id/messageButton"
+
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:onClick="onClickMessageButton"
+        android:focusable="true"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bluemess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logoView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/editButton"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/logoView"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blueedit" />
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/background_light"
+        android:contentDescription="@string/app_name"
+        android:maxHeight="85dp"
+        android:maxWidth="85dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/messageButton"
+        app:layout_constraintStart_toEndOf="@+id/editButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/namelogo" />
+
+    <ImageButton
+        android:id="@+id/nahButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"
+        android:maxHeight="84dp"
+        android:maxWidth="84dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/maybeButton"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluex" />
+
+    <ImageButton
+        android:id="@+id/yahButton"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"
+        android:maxHeight="84dp"
+        android:maxWidth="84dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/maybeButton"
+        app:srcCompat="@drawable/bluetick" />
+
+    <ImageButton
+        android:id="@+id/maybeButton"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:background="#ffffff"
+        android:maxHeight="84dp"
+        android:maxWidth="84dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/yahButton"
+        app:layout_constraintStart_toEndOf="@+id/nahButton"
+        app:srcCompat="@drawable/blueq" />
+
+    <ImageView
+        android:id="@+id/profilePersonView"
+        android:layout_width="248dp"
+        android:layout_height="305dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="88dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:maxHeight="600dp"
+        android:maxWidth="120dp"
+        android:scaleType="fitCenter"
+        android:src="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

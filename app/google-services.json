@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "993906971903",
+    "firebase_url": "https://hotspot-a4d43.firebaseio.com",
+    "project_id": "hotspot-a4d43",
+    "storage_bucket": "hotspot-a4d43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993906971903:android:d9b63f43184fddf4",
+        "android_client_info": {
+          "package_name": "com.example.conno.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993906971903-srsh6or1mvr0hsgdfuatsco3asodr2bp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.conno.myapplication",
+            "certificate_hash": "69434c2dfe5c962e4c38ee95ee849321a4efdefd"
+          }
+        },
+        {
+          "client_id": "993906971903-0trlq8ssvofp7s3pmd1dt2lpgkjajhqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzHRoo9cUEMEpQtS01txwAhMdzXHHjiAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993906971903-0trlq8ssvofp7s3pmd1dt2lpgkjajhqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
